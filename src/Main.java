@@ -12,7 +12,7 @@ public class Main {
 			while (true){
 			// Main Menu 
 			System.out.println(">>Main Menu<<\n1.Add Event\n2.Display Events\n3.Scheduler\n4.Exit");
-			System.out.print("What would you like to do?");
+			System.out.print("What would you like to do?\n");
 			response = 0;
 				
 				try{
@@ -25,8 +25,8 @@ public class Main {
 					}
 				}
 				catch (Exception e){
-					System.out.println("I'm sorry, please enter a number between 1-4");	
-					in.nextLine();
+					System.out.println("I'm sorry, please enter a number between 1-4\n");
+					response = in.nextInt();
 				}
 			}
 			

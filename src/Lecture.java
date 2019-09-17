@@ -40,7 +40,7 @@ public class Lecture extends Event {
 		lecture.setName(name);
 		lecture.setStartTime(Scheduler.convertTimeToInt(startTime));
 	
-		in.close();
+//		in.close();
 		return (Event)lecture;
 	}
 	public static Event setEvent(String title, String name, int startTime, int endTime){
